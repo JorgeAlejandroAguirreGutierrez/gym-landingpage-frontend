@@ -1,6 +1,7 @@
+var entorno="https://gym-auth-backend1.herokuapp.com/";
 $(document).ready(function() {
     var xhttp = new XMLHttpRequest();
-	xhttp.open("GET", "http://127.0.0.1:5001/gym/mensaje", false);
+	xhttp.open("GET", entorno+"/gym/mensaje", false);
 	xhttp.send();
 	let respuesta=jQuery.parseJSON( xhttp.responseText );
 	for(let i=0; i<respuesta.length; i++){

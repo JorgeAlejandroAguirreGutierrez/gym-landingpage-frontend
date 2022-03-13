@@ -1,6 +1,7 @@
 var nombre="";
 var correo="";
 var observacion="";
+var entorno="https://gym-auth-backend1.herokuapp.com/";
 
 function enviar(event){
 	event.preventDefault();
@@ -8,7 +9,7 @@ function enviar(event){
 	correo=document.getElementById("correo").value;
 	observacion=document.getElementById("observacion").value;
 	var xhttp = new XMLHttpRequest();
-	xhttp.open("GET", "http://127.0.0.1:5001/gym/mensaje/crearMensaje?nombre="+nombre+"&correo="+correo+"&observacion="+observacion, false);
+	xhttp.open("GET", entorno+"/gym/mensaje/crearMensaje?nombre="+nombre+"&correo="+correo+"&observacion="+observacion, false);
 	xhttp.send();
 	let respuesta=xhttp.responseText;
 	if(respuesta==="true"){
