@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^gymup.com.co 
-RewriteRule (.*) http://www.gymup.com.co/$1 [R=301,L]
