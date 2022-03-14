@@ -14,7 +14,7 @@ $(function(){
 				let td1=$("<td></td>").text(resultado[i].nombre);
 				let td2=$("<td></td>").text(resultado[i].correo);
 				let td3=$("<td></td>").text(resultado[i].observacion);
-				let td4=$("<td></td>").text(resultado[i].fecha);
+				let td4=$("<td></td>").text(resultado[i].fechaCreacion);
 				tr.append(td0);
 				tr.append(td1);
 				tr.append(td2);
