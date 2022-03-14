@@ -283,7 +283,7 @@
 						</div>
 						<div class="row">
 							<div class="form-group col-md-12">
-								<button type="button" onclick="enviar(event)" data-toggle="modal" data-target="#exampleModal" class="shadow1 style3 bgscheme">Enviar</button>
+								<button type="button" id="enviar" class="shadow1 style3 bgscheme"><span id="texto">Enviar</span></button>
 							</div>
 						</div>
 					</form>
@@ -352,16 +352,16 @@
 	<!-- /.Section Footer -->
 
 	<!-- Modal -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="modalResultado" tabindex="-1" aria-labelledby="modalResultadoLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Información</h5>
+					<h5 class="modal-title" id="modalResultadoLabel">Información</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<div class="modal-body" id="respuesta">
+				<div class="modal-body" id="resultado">
 					
 				</div>
 				<div class="modal-footer">
@@ -392,7 +392,7 @@
 	<!-- Carousel Testimonial 1 -->
 	<script src="assets/js/carousel-testimonial1.js"></script>
 
-	<script src="assets/js/gymup.js"></script>
+	<script src="assets/js/index.js"></script>
 
 </body>
 
