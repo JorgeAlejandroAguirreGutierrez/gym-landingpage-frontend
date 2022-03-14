@@ -15,13 +15,11 @@ $(function(){
 				let td2=$("<td></td>").text(resultado[i].correo);
 				let td3=$("<td></td>").text(resultado[i].observacion);
 				let td4=$("<td></td>").text(resultado[i].fecha);
-				let td5=$("<td></td>").text(resultado[i].gestionado);
 				tr.append(td0);
 				tr.append(td1);
 				tr.append(td2);
 				tr.append(td3);
 				tr.append(td4);
-				tr.append(td5);
 				$("#mensajes").append(tr);
 			}
         }).fail(function() {
