@@ -6,10 +6,11 @@ $(function(){
 	function enviar(){
 		let nombre=$("#nombre").val();
 		let correo=$("#correo").val();
+		let celular=$("#celular").val();
 		let observacion=$("#observacion").val();
 		let spinner=$("<span class='spinner-border shadow1 style' role='status' aria-hidden='true' id='spinner'></span>");
 		spinner.insertBefore("#texto");
-		$.get(entorno+"/gym/mensaje/crearMensaje?nombre="+nombre+"&correo="+correo+"&observacion="+observacion, function (data) {
+		$.get(entorno+"/gym/mensaje/crearMensaje?nombre="+nombre+"&correo="+correo+"&celular="+celular+"&observacion="+observacion, function (data) {
             var resultado = data;
 			$("#spinner").remove();
 			$('#modalResultado').modal('show'); 
