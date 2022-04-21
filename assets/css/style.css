@@ -2437,10 +2437,16 @@ a.animated-button.style2:hover:after {
 	#section-appscreen1 .container.appscreen1{
 		max-width: 1655px;
 	}
+	#button-width{
+		width: 100%;
+	}
 }
 @media only screen and ( min-width: 1522px ){
 	#section-testimonial1 .container.testimonial1 {
 	    max-width: 1522px;
+	}
+	#button-width{
+		width: 100%;
 	}
 }
 @media only screen and ( max-width: 1521px ){
@@ -2459,6 +2465,9 @@ a.animated-button.style2:hover:after {
 	}
 	#section-testimonial1 img.bg-testimonial {
 	    top: -135px;
+	}
+	#button-width{
+		width: 100%;
 	}
 }
 @media only screen and ( min-width:1200px ) and ( max-width: 1400px ){
@@ -2479,6 +2488,9 @@ a.animated-button.style2:hover:after {
 	#section-slider1 .swiper-slide .slider-content .right {
 	    text-align: center;
 	}
+	#button-width{
+		width: 100%;
+	}
 }
 
 @media only screen and ( min-width: 1200px ){
@@ -2496,6 +2508,9 @@ a.animated-button.style2:hover:after {
 	}
 	#section-contact1 .right{
 	    padding-left: 85px;
+	}
+	#button-width{
+		width: 100%;
 	}
 }
 @media only screen and ( max-width: 1199px ){
@@ -2529,6 +2544,9 @@ a.animated-button.style2:hover:after {
 	#section-blogdetail1 .contents .share .social-links a {
 	    margin-left: 25px;
 	}
+	#button-width{
+		width: 100%;
+	}
 }
 @media only screen and ( min-width: 992px ) and ( max-width: 1199px ){
 	#section-testimonial1 .item i {
@@ -2538,6 +2556,9 @@ a.animated-button.style2:hover:after {
 	#section-testimonial1 .item p {
 	    font-size: 14px;
 	    line-height: 25px;
+	}
+	#button-width{
+		width: 100%;
 	}
 }
 
